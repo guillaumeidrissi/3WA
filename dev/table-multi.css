@@ -1,0 +1,12 @@
+table{
+	font-family:  "Courier New", monospace;
+}
+td{
+	background-color: #9b9a8f;
+	text-align: center;
+	height: 2em;
+	width: 2em;
+}
+.color{
+	background-color: #1fef8e;
+}

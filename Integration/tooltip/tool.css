@@ -1,0 +1,25 @@
+a[data-tooltip]{
+	position: relative;
+}
+
+a[data-tooltip]::before{
+	content: attr(data-tooltip);
+	position: absolute;
+	display: none;
+	bottom: 2em;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+}
+
+a[data-tooltip]:hover::before{
+	display: block;
+}
+
+a[tooltip]::after{
+	content:"";
+	width: 0;
+	left: 0;
+	border: 10px solid transparent;	
+	border-top-color: black;
+}

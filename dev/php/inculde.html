@@ -1,0 +1,92 @@
+<!--  url à taper :    ->
+
+
+<!-------------------- index.php --------------------------------->
+
+<?php
+
+$name = 'Thib';
+
+include 'header.phtml';
+include 'index.phtml';
+include 'footer.phtml';
+
+?>
+
+<!-------------------- form.php --------------------------------->
+
+<?php
+
+
+include 'header.phtml';
+include 'form.phtml';
+include 'footer.phtml';
+
+?>
+
+
+<!-------------------- index.phtml --------------------------------->
+
+
+
+  
+  <main>
+
+    <p>je suis le main</p>
+        <p>je m'appelle <?= $name ?></p>
+        
+  </main>
+  
+
+
+
+<!-------------------- form.phtml --------------------------------->
+
+
+  
+   
+  <main>
+    
+      <form>
+          <input type="text" placeholder="Nom" name="lastname"/>
+          <input type="text" placeholder="Prénom" name="firstname"/>
+            <input type="text" placeholder="Email" name="email"/>
+            <input type="text" placeholder="Adresse" name="address"/>
+            <input type="text" placeholder="Ville" name="city"/>
+            <input type="submit" value="Envoyer"/>
+        </form>
+    </main>
+  
+
+
+
+
+<!-------------------- header.phtml --------------------------------->
+  
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>index</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+        <div>
+            <nav>
+                <a href="index.php">Home</a>
+                <a href="form.php">lien vers le formulaire</a>
+            </nav>
+            <p> Je suis le header</p>
+
+    </div>
+
+<!-------------------- footer.phtml --------------------------------->
+
+
+  <div>
+
+    <p> Je suis le nouveau footer</p> 
+
+  </div>
+ </body>
+</html>

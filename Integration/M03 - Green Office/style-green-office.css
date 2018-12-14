@@ -1,0 +1,62 @@
+
+html{
+	background-image: url(fond.png);
+}
+
+body{
+	padding:0em 600px 30em;
+}
+
+h2{
+	color: #b8ca3c;
+}
+
+img.who{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+img.what{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.read{
+	border-style: none;
+	background-color: #b8ca3c; 
+	display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 350px;
+    color: white;
+}
+
+.bandeau{
+	background-color: #b8ca3c;
+}
+
+a{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 130px;
+	padding: 8px;
+	text-align: right;
+	color:#2f482c;
+}
+
+img.logo{
+	float: left;
+}
+
+.blanc{
+	background-color: white;
+	padding: 15px;
+}
+
+img.feuille{
+	float: left;
+}

@@ -1,0 +1,38 @@
+
+.debut{
+	text-align: center;
+}
+nav{
+	background-color: #14a893;
+}
+h1{
+	color: #14a893;
+	font-size: 4rem;
+}
+h2{
+	color: #14a893;
+	font-size: 2.4rem;
+}
+.principale{
+	width: 60%;
+
+	float: left;
+}
+.p2{
+	background-color: #c8df98;
+	width: 20%;
+
+	float: left;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+.p2{
+	display: none;
+}
+
+}

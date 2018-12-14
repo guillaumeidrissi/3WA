@@ -1,0 +1,90 @@
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu-deroulant > li {
+    display: inline-block;
+    padding: 2em;
+}
+#menu-deroulant li {
+    padding: 1em;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+}
+#menu-deroulant ul {
+    text-align: left;
+    z-index: 1000;
+    display: none;
+}
+#menu-deroulant > li:hover {
+    background-color: #42c5dd;
+    color: white;
+}
+#menu-deroulant li:hover ul{
+    display: block;
+    width: 100%;
+}
+#menu-deroulant .groupe {
+    position: absolute;
+    left:0;
+ }
+.bandeau{
+    padding-bottom: 5em;
+}
+.logo{
+    float: left;
+}
+.ligne{
+    width: 96%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #42c5dd;
+}
+pre{
+    float: left;
+}
+nav{
+    padding-top: 10em;
+}
+main{
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.groupe{
+    background-color: #42c5dd;
+    position: absolute;
+}
+.groupe li{
+    background-color: #42c5dd;
+    vertical-align: inherit;
+}
+h2{
+    color: #42c5dd;
+}
+p{
+    color: #a29c9c;
+}
+pre{
+    color: #a29c9c;
+    font-size: 1.5em;
+}
+.groupe li ul{
+    position: relative;
+    display: block;
+}
+.groupe > li{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}

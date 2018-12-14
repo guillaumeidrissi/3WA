@@ -1,0 +1,284 @@
+                            /* --- HEADER --- */
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.nav{
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nav p{
+    margin: 0;
+}
+.nav li:nth-child(2){
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+header p{
+    font-size: 2em;
+    color: #25424f;
+    font-family: 'Candal', sans-serif;
+}
+.fa-users{
+    color: #fb8a9b;
+}
+.nav li:nth-child(3){
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.fa-user{
+    color: #fb8a9b;
+}
+.nav li:nth-child(4){
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.fa-cloud{
+    color: #fb8a9b;
+}
+.nav li:nth-child(5){
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.fa-envelope{
+    color: #fb8a9b;
+}
+.fa{
+    display: block;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+                            /* --- MAIN --- */
+
+
+.titre-fond{
+    background-image: url(background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+    background-size:100%;
+	background-position: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+#searchthis #search{
+    width: 100%;
+    padding: 1em;
+    padding-left: 5%;
+    color: #e0e0e0;
+    border-style: none;
+    background-color: #fb8a9b;
+}
+
+.s2{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solution{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.solution>h2{
+    text-align: center;
+}
+
+.solution ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+}
+
+.solution li{
+    padding: 2em;
+}
+
+.stile{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.stile>h2{
+    text-align: center;
+}
+
+.stile ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stile li{
+    padding: 2em;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Candal', sans-serif;
+}
+h2{
+    border-top: 1px dashed black;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    padding-top: 1em;
+    font-size: 1.8em;
+    font-family: 'Candal', sans-serif;
+    color: #25424f;
+}
+h3{
+    font-size: 1.2em;
+    color: #fb8a9b;
+    font-family: 'Candal', sans-serif;
+}
+pre{
+    color: #fb8a9b;
+}
+.fa-database{
+    color: #fb8a9b;
+}
+.fa-chart-area{
+    color: #fb8a9b;
+}
+.fa-cogs{
+    color: #fb8a9b;
+}
+
+
+
+                            /*FOOTER*/
+
+
+footer{
+    background-color: #25424f;
+}
+
+.fin{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 3em;
+    font-family: 'Candal', sans-serif;
+}
+.propri{
+    text-align: center;
+    color: white;
+    padding-bottom: 2em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+                    /*Quand l'écran est compris entre 480px et 960px*/
+
+
+@media screen and (min-width: 480px) and (max-width: 960px){
+                            
+
+                            /*HEADER*/  
+
+
+.nav{
+    display: inline;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+                            /*MAIN*/
+
+
+content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre-fond{
+    background-image: url(background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    color: #fcfcfc;
+    margin-bottom: 0;
+}
+.titre-fond>p{
+    padding-bottom: 4em;
+    margin: 0;
+}
+
+.recherche{
+    margin-top: 0; 
+}
+#searchthis #search{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    padding-left: 5%;
+    color: #e0e0e0;
+    border-style: none;
+    background-color: #fb8a9b;
+}
+.solution{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.solution ul{
+    display: inline;
+}
+.stile{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.stile ul{
+    display: inline;
+}
+
+
+
+                            /*FOOTER*/
+
+
+
+footer{
+    width: 100%;
+}
+.fin{
+    display: inline;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+

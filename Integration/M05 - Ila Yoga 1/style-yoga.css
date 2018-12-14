@@ -1,0 +1,205 @@
+.cours{
+	float: left;
+	width: 29%;
+	text-align: center;
+	padding: 2em;
+}
+.profs{
+	float: left;
+	width: 29%;
+	text-align: center;
+	padding: 2em;
+}
+.tarifs{
+	float: left;
+	width: 29%;
+	text-align: center;
+	padding: 2em;
+}
+.presta{
+	color: white;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 300px;
+	font-size: 2em;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 2px 6px 13px rgba(0,0,0,0.7);
+}
+h3{
+	text-align: center;
+	margin: 0em;
+}
+header{
+	color: white;
+}
+nav{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive; 
+}
+pre{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.1); 
+}
+body{
+	background-image: url(background_section.jpg);
+	background-size: cover;
+	margin: 0px;
+}
+main{
+	background-color: white;
+	padding: 1em;
+}
+.image{
+	width: 60%;
+}
+.bandeau{
+	background-image: url(fond.jpg);
+	background-size:100%;
+	background-position:  right 45% bottom 30%;;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+
+.cours-yoga{
+	
+}
+.yoga_cours{
+	float: left;
+	margin: 1em;
+	
+}
+.yoga_posture{
+	float: right;
+	margin: 1em;
+}
+.clear{
+	clear: both;
+}
+.map{
+	width: 100%;
+}
+ul{
+	display: inline-block;
+	list-style: none;
+}
+a { 
+	color: #ffffff; 
+}
+.articles{
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.nv{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nv-1{
+	text-align: center;
+	width: 25%;
+}
+.nv-2{
+	width: 25%;
+	text-align: center;
+}
+.nv-3{
+	width: 25%;
+	text-align: center;
+}
+.nv-4{
+	width: 25%;
+	text-align: center;
+}
+
+
+
+
+
+
+.date{
+	text-align: left;
+}
+.resa{
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.coordonnees{
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+}
+#text{
+	border: none;
+}
+.contenu{
+	padding: 1em;
+}
+.paris{
+	margin: 2em;
+}
+.marseille{
+	margin: 2em;
+}
+fieldset{
+	margin: 1em;
+}
+table{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+td{
+	border:thin solid black;
+	padding: 0.5em;
+}
+
+th{
+	background-color: #b380e5;
+	text-align: left;
+	color: white;
+	padding: 1em;
+	font-family: 'Kaushan Script', cursive;
+}
+select{
+	width: 100%;
+}
+tr:nth-child(2){
+	background-color: #ededed;
+}
+tr:nth-child(4){
+	background-color: #ededed;
+}
+form{
+	padding: 1em;
+}
+.envoi{
+	background-color: #b380e5;
+	border-style: none;
+	padding: 0.5em;
+	color: white;
+	text-align: center;
+	width: 8em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bouton{
+	text-align: center;
+}
+td > a{
+	color: #b380e5;
+}
